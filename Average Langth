@@ -1,0 +1,9 @@
+function flipPairs(string) {
+  var chunked = string.match(/.{1,2}/g);
+  var flipped = chunked.map(function(x) {
+   return x.split("").reverse().join("");
+  });
+  
+  return flipped.join("")
+  
+}
