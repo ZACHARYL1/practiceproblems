@@ -1,0 +1,9 @@
+function computeSummationToN(n) {
+  var total = 0;
+  for(x=0; x<=n; x++){
+    total += x;
+  }
+  return(total);
+}
+var output = findMinLengthOfThreeWords('a', 'be', 'see');
+console.log(output);
