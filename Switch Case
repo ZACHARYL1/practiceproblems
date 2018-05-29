@@ -1,0 +1,15 @@
+function checkCar() {
+  var text;
+  var favCar = prompt("input a car");
+
+  switch(favCar) {
+    case "BMW":
+      text = "German car";
+    case "Ford":
+      text = "American car";
+    case "Peugeot":
+      text = "French car";
+    default:
+      text = "Unknown car name";
+  }
+}
